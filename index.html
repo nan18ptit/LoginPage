@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisheam Login</title>
+    <link rel="stylesheet" href="./assets/css/style.css" >
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <ul id="header-nav">
+            <li> <a href="#"> Help </a> </li>
+            <li> <a href="#"> Contect us </a> </li>
+            <li> <a href="#"> 
+                English 
+                <i class="nav-icon-down ti-angle-down"></i>
+                </a> 
+            </li>
+            <li> <a href="#"> Sign Up </a> </li>
+            <li> 
+                <a href="#">
+                <i class="nav-icon-home ti-home"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="header-img">
+            <img class="img_size" src="./assets/img/Image.png" alt="">
+            <img class="logo_size" src="./assets/img/logo.png" alt="">
+        </div>
+    </div>
+    <!-- content -->
+    <div id="content">
+        <div class="login">
+             <!-- Begin: sign up -->
+            <div class="login-sign-up">
+                <h1 class="sign-up__title"> Welcome back! </h1>
+                <p class="sign-up__content"> 
+                    Don't have a account, 
+                    <a class="content-link" href="">Sign up</a>
+                </p>
+            </div>
+            <!-- End: sign up -->
+
+            <!-- Begin: form login -->
+            <div class="form-login">
+                <label for="username" class="login-label"> Username </label>
+                <input id="username" type="text" class="login-input" placeholder="daniel123@gmail.com">
+
+                <label for="password" class="login-label"> Password </label>
+                <div class="login-password">
+                    <input id="password" type="password" class="login-input" placeholder="* * * * * *">
+                    <!-- <i class=" icon-eye ti-eye"></i> -->
+                </div>
+                <div class=" pretty p-default p-round">
+                    <input  type="checkbox" />
+                    <div class="state">
+                      <label>Remember me</label>
+                    </div>
+                </div>
+                <a href="#" class="content-link content-link__right"> Forget Password?</a>
+
+                <button type="submit" id="btn-submit">Sign In</button>
+
+                <div class="login-continue">
+                    <p>------------or continue with------------</p>
+                </div>
+                <div class="login-with-other">
+                    <a href="#" class="login-other-list">
+                        <i class="icon-brand ti-google"></i>
+                    </a>
+                    <a href="#" class="login-other-list">
+                        <i class="icon-brand ti-facebook"></i>
+                    </a>
+                    <a href="#" class="login-other-list">
+                        <i class="icon-brand ti-apple"></i>
+                    </a>
+                </div>
+        
+            </div>
+            <!-- End: form login -->
+        </div>     
+    </div>
+</body>
+</html>
